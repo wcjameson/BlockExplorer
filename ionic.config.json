@@ -1,0 +1,7 @@
+{
+  "name": "BlockExplorer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
