@@ -1,10 +1,11 @@
 .container {
+  background-image: url('/resources/Cyberpunk-Background-HD.jpg');
   text-align: center;
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 25%;
+  /* transform: translateY(-50%); */
 }
 
 .container strong {
