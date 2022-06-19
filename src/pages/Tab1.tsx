@@ -13,6 +13,19 @@ import React from 'react';
 //   { src: 'https://cdn3.vectorstock.com/i/1000x1000/63/37/colorful-cartoon-lightning-symbol-vector-24296337.jpg', text: 'Lightning' }
 // ];
 
+
+// interface Address {
+//   Details: []
+// }
+
+// function getAddress(): Promise<Address[]> {
+//   return fetch('https://mempool.space/api/address/')
+//   .then(res => res.json())
+//   .then(res => {
+//     return res as Address[]
+//   })
+// }
+
 const Tab1: React.FC = () => {
   return (
     <IonPage>
@@ -23,16 +36,13 @@ const Tab1: React.FC = () => {
       </IonHeader>
 
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Test</IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <div className="container">
           {/* <strong>{name}</strong> */}
-          <label htmlFor="address" id='address'>Enter Address</label>
+          <div className='addressInput'>
+          <label htmlFor="address" id='address'>Enter Address </label>
           <input id="inputAddress" required={true} />
           <IonButton type="submit" color="tertiary" id="submit">Submit</IonButton>
+          </div>
 
           <div className="output-on-chain"></div><br />
           <div className="output-mempool"></div>

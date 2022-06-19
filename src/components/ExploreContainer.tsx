@@ -7,16 +7,13 @@ interface ContainerProps {
 
 const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   return (
-    <div className="container">
+    <>
+      <div className='container1'> <p>text</p>
+        
+      </div>
       {/* <strong>{name}</strong> */}
       {/* <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p> */}
-    {/* <label htmlFor="address">Enter Address</label>
-    <input id="inputAddress" required={true} />
-    <IonButton type="submit" color="tertiary" id="submit">Submit</IonButton>
-  
-  <div className="output-on-chain"></div><br />
-  <div className="output-mempool"></div> */}
-  </div>
+      </>
   );
 };
 

@@ -1,4 +1,9 @@
 #address {
   font-family: fantasy;
-  color:honeydew
+  color:honeydew;
+  outline: 2px black;
+}
+
+.addressInput {
+  margin-top: 25px;
 }
